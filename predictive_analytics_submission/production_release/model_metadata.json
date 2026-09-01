@@ -1,0 +1,16 @@
+{
+    "model_architecture": "Direct Multi-Horizon LightGBM Regressor",
+    "horizon_steps": 2160,
+    "horizon_duration": "3 Hours",
+    "temporal_resolution": "5 Seconds",
+    "forecast_window_start": "2025-10-09 00:00:00",
+    "forecast_window_end": "2025-10-09 02:59:55",
+    "physical_constraints": "Reading >= 0.0",
+    "evaluation_metrics": [
+        "MAE",
+        "RMSE",
+        "MAPE",
+        "WAPE",
+        "R2"
+    ]
+}
